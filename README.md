@@ -47,5 +47,26 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
-
+ happy path:
+ 
+ enter the type of pizza 
+ select TOPPINGS 1 from dropdown 1 and TOPPINGS 2 dropdown 2
+ enter the QUANTITY of the pizza 
+ Enter the NAME, EMAIL, PHONENUMBER
+ select the MODE OF PAYMENT 
+ click on the PLACE ORDER Button 
+ 
+ expected result: dialouge box should appear with a THANKYOU! message
+ 
+ 
+ error Path:
+ 
+ click on PLACE ORDER Button directly  
+ 
+ expected result: dialouge box should appear MISSING NAME and MISSING PHONENUMBER message 
+ 
+ issues or errors observed:
+ 
+1. RESET button does not reset the selection of TOPPINGS 
+2. if MODE OF PAYMENT is not selected it does not prompt 
+3. selection of the type of pizza does not restrict the number of toppings 
