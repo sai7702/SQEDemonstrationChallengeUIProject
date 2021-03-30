@@ -47,12 +47,7 @@ public class DemoTest extends TestBase {
 
 		// printing the success full order status
 		System.out.println(orderStatus);
-
-
-
 	}
-
-
 
 	@Test
 	public void ErrorTest() throws InterruptedException {
@@ -71,9 +66,5 @@ public class DemoTest extends TestBase {
 		driver.findElement(By.id("reset")).click();
 		// printing the error status 
 		System.out.println(errorStatus);
-
-
-
 	}
-
 }
